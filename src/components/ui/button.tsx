@@ -15,11 +15,17 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Onix Burger specific variants
+        neon: "bg-onix-purple text-white hover:bg-onix-purple-glow shadow-lg hover:shadow-neon transition-all duration-300",
+        gold: "bg-onix-gold text-onix-dark hover:bg-onix-gold-glow font-bold shadow-lg hover:shadow-gold transition-all duration-300",
+        "outline-neon": "border-2 border-onix-purple text-onix-purple hover:bg-onix-purple hover:text-white transition-all duration-300",
+        "outline-gold": "border-2 border-onix-gold text-onix-gold hover:bg-onix-gold hover:text-onix-dark transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
+        xl: "h-14 rounded-lg px-12 text-lg",
         icon: "h-10 w-10",
       },
     },

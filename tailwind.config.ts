@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Onix Burger brand colors
+        onix: {
+          purple: "hsl(var(--onix-purple))",
+          "purple-glow": "hsl(var(--onix-purple-glow))",
+          gold: "hsl(var(--onix-gold))",
+          "gold-glow": "hsl(var(--onix-gold-glow))",
+          dark: "hsl(var(--onix-dark))",
+          light: "hsl(var(--onix-light))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -84,6 +93,10 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "neon-glow": "neon-glow 2s infinite alternate",
+        "gold-shine": "gold-shine 2s infinite",
+        "fade-in-up": "fade-in-up 0.6s ease-out forwards",
+        "pulse-scale": "pulse-scale 3s ease-in-out infinite",
       },
     },
   },
