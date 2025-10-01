@@ -1,33 +1,25 @@
 import { Clock, MapPin, Star, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-
 const DeliverySection = () => {
-  const benefits = [
-    {
-      icon: <Clock className="w-8 h-8 text-onix-purple" />,
-      title: "Entrega Recorde",
-      description: "A entrega mais rápida de São Gonçalo. Nosso tempo médio impressiona todos os clientes!"
-    },
-    {
-      icon: <MapPin className="w-8 h-8 text-onix-gold" />,
-      title: "Cobertura Total",
-      description: "Atendemos toda São Gonçalo com a mesma agilidade e qualidade que nos tornou famosos."
-    },
-    {
-      icon: <Star className="w-8 h-8 text-onix-purple" />,
-      title: "Qualidade Garantida",
-      description: "Hambúrguers artesanais preparados na hora, mantendo o sabor até a sua porta."
-    },
-    {
-      icon: <Truck className="w-8 h-8 text-onix-gold" />,
-      title: "Logística Inteligente",
-      description: "Sistema otimizado para garantir que seu pedido chegue quentinho e no tempo prometido."
-    }
-  ];
-
-  return (
-    <section id="delivery" className="py-20 bg-gradient-to-b from-background to-muted/20">
+  const benefits = [{
+    icon: <Clock className="w-8 h-8 text-onix-purple" />,
+    title: "Entrega Recorde",
+    description: "A entrega mais rápida de São Gonçalo. Nosso tempo médio impressiona todos os clientes!"
+  }, {
+    icon: <MapPin className="w-8 h-8 text-onix-gold" />,
+    title: "Cobertura Total",
+    description: "Atendemos toda São Gonçalo com a mesma agilidade e qualidade que nos tornou famosos."
+  }, {
+    icon: <Star className="w-8 h-8 text-onix-purple" />,
+    title: "Qualidade Garantida",
+    description: "Hambúrguers artesanais preparados na hora, mantendo o sabor até a sua porta."
+  }, {
+    icon: <Truck className="w-8 h-8 text-onix-gold" />,
+    title: "Logística Inteligente",
+    description: "Sistema otimizado para garantir que seu pedido chegue quentinho e no tempo prometido."
+  }];
+  return <section id="delivery" className="py-20 bg-gradient-to-b from-background to-muted/20">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 space-y-4">
@@ -50,8 +42,7 @@ const DeliverySection = () => {
 
         {/* Benefits Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-          {benefits.map((benefit, index) => (
-            <Card key={index} className="card-glass hover:scale-105 transition-transform duration-300">
+          {benefits.map((benefit, index) => <Card key={index} className="card-glass hover:scale-105 transition-transform duration-300">
               <CardContent className="p-6 text-center space-y-4">
                 <div className="bg-muted/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto">
                   {benefit.icon}
@@ -59,14 +50,13 @@ const DeliverySection = () => {
                 <h3 className="text-xl font-bold text-foreground">{benefit.title}</h3>
                 <p className="text-muted-foreground">{benefit.description}</p>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           <div className="text-center space-y-2">
-            <div className="text-4xl md:text-5xl font-bold neon-text">15min</div>
+            <div className="text-4xl md:text-5xl font-bold neon-text">20 a 40min</div>
             <div className="text-muted-foreground">Tempo Médio</div>
           </div>
           <div className="text-center space-y-2">
@@ -85,12 +75,7 @@ const DeliverySection = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Button 
-            size="lg"
-            variant="neon"
-            className="neon-glow text-xl px-12 py-6"
-            onClick={() => window.open("http://wa.me/5521965565600", "_blank")}
-          >
+          <Button size="lg" variant="neon" className="neon-glow text-xl px-12 py-6" onClick={() => window.open("http://wa.me/5521965565600", "_blank")}>
             <Truck className="w-6 h-6 mr-3" />
             Fazer Pedido Agora
           </Button>
@@ -99,8 +84,6 @@ const DeliverySection = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default DeliverySection;
