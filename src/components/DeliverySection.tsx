@@ -57,7 +57,7 @@ const DeliverySection = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-bold neon-text">20 a 40min</div>
-            <div className="text-muted-foreground">Tempo Médio</div>
+            <div className="text-muted-foreground">Tempo de entrega Médio</div>
           </div>
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-bold text-onix-gold">🏆1º</div>
@@ -69,7 +69,7 @@ const DeliverySection = () => {
           </div>
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-bold text-onix-gold">2017</div>
-            <div className="text-muted-foreground">Desde</div>
+            <div className="text-muted-foreground">Desde de 2017 entregando os melhores</div>
           </div>
         </div>
 
