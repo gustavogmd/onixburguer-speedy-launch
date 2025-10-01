@@ -74,10 +74,10 @@ const Footer = () => {
             </Button>
 
             <div className="flex space-x-3">
-              <Button variant="outline-gold" size="icon">
+              <Button variant="outline-gold" size="icon" onClick={() => window.open("https://www.instagram.com/onixburguer/", "_blank")}>
                 <Instagram className="w-5 h-5" />
               </Button>
-              <Button variant="outline-neon" size="icon">
+              <Button variant="outline-neon" size="icon" onClick={() => window.open("https://www.facebook.com/onixburguer/", "_blank")}>
                 <Facebook className="w-5 h-5" />
               </Button>
             </div>

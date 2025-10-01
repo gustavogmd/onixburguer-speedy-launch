@@ -61,8 +61,8 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" variant="neon" className="neon-glow text-lg px-8 py-6" onClick={() => window.open("http://wa.me/5521965565600", "_blank")}>
-                Peça pelo WhatsApp
+              <Button size="lg" variant="neon" className="neon-glow text-lg px-8 py-6" onClick={() => window.open("https://www.onixburguer.com.br/", "_blank")}>
+                Peça Agora pelo Site
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               
