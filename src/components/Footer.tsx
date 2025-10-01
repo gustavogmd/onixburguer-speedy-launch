@@ -59,26 +59,7 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div className="space-y-6">
-            <h3 className="text-xl font-bold text-foreground">Serviços</h3>
-            <ul className="space-y-3">
-              <li className="text-muted-foreground hover:text-onix-purple cursor-pointer transition-colors">
-                🚚 Delivery Super Rápido
-              </li>
-              <li className="text-muted-foreground hover:text-onix-purple cursor-pointer transition-colors">
-                🏪 Loja Física com Tablets
-              </li>
-              <li className="text-muted-foreground hover:text-onix-purple cursor-pointer transition-colors">
-                🍔 Hambúrguers Artesanais
-              </li>
-              <li className="text-muted-foreground hover:text-onix-purple cursor-pointer transition-colors">
-                ⚡ Tecnologia Inovadora
-              </li>
-              <li className="text-muted-foreground hover:text-onix-purple cursor-pointer transition-colors">
-                📱 Pedidos Automatizados
-              </li>
-            </ul>
-          </div>
+          
 
           {/* CTA */}
           <div className="space-y-6">
