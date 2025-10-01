@@ -44,7 +44,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-sm">Delivery</p>
-                  <p className="text-onix-gold text-xs">Super Rápido</p>
+                  <p className="text-onix-gold text-xs">O Delivery mais rápido da cidade</p>
                 </div>
               </div>
               
