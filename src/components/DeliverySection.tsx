@@ -60,8 +60,8 @@ const DeliverySection = () => {
             <div className="text-muted-foreground">Tempo Médio</div>
           </div>
           <div className="text-center space-y-2">
-            <div className="text-4xl md:text-5xl font-bold text-onix-gold">100%</div>
-            <div className="text-muted-foreground">São Gonçalo</div>
+            <div className="text-4xl md:text-5xl font-bold text-onix-gold">🏆1º</div>
+            <div className="text-muted-foreground">A melhor Hamburgueria de São Gonçalo</div>
           </div>
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-bold neon-text">18hrs a 00hrs</div>
