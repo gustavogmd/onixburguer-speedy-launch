@@ -64,9 +64,7 @@ const StoreSection = () => {
 
             {/* Quote */}
             <div className="bg-onix-purple/10 border-l-4 border-onix-purple rounded-r-2xl p-6">
-              <blockquote className="text-xl font-semibold text-foreground italic">
-                "Onix Burger, o melhor Hamburguer da vida"
-              </blockquote>
+              <blockquote className="text-xl font-semibold text-foreground italic">"Onix Burguer, o melhor Hamburguer da vida"</blockquote>
               <p className="text-sm text-muted-foreground mt-2">- Este é o nosso lema, acreditamos tanto nisso que trabalhamos intensamente todos os dias para que você tenha sempre a melhor experiência ao comer um dos nossos Hamburgueres</p>
             </div>
 

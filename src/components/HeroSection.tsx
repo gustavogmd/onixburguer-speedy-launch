@@ -15,7 +15,7 @@ const HeroSection = () => {
           <div className="space-y-8 fade-in-up">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-                <span className="neon-text">Onix Burger</span>
+                <span className="neon-text">Onix Burguer</span>
                 <br />
                 <span className="text-onix-gold">O Melhor</span>
                 <br />

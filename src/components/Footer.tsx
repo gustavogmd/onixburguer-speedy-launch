@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <img src={onixLogo} alt="Onix Burger" className="h-10 w-10" />
-              <span className="text-2xl font-bold neon-text">Onix Burger</span>
+              <span className="text-2xl font-bold neon-text">Onix Burguer</span>
             </div>
             <p className="text-muted-foreground">
               A hamburgueria artesanal de São Gonçalo com a entrega mais rápida da cidade.
