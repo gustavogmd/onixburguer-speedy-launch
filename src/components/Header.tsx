@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-white/10">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 pt-safe">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
@@ -56,10 +56,10 @@ const Header = () => {
               variant="neon"
               size="sm"
               className="neon-glow"
-              onClick={() => window.open("http://wa.me/5521965565600", "_blank")}
+              onClick={() => window.open("https://onixburguer.com.br/", "_blank")}
             >
-              <Phone className="w-4 h-4 mr-2" />
-              Peça Agora
+              Peça agora pelo site
+              <span className="ml-2">→</span>
             </Button>
           </div>
 
@@ -104,10 +104,10 @@ const Header = () => {
                 variant="neon"
                 size="sm"
                 className="w-fit"
-                onClick={() => window.open("http://wa.me/5521965565600", "_blank")}
+                onClick={() => window.open("https://onixburguer.com.br/", "_blank")}
               >
-                <Phone className="w-4 h-4 mr-2" />
-                Peça Agora
+                Peça agora pelo site
+                <span className="ml-2">→</span>
               </Button>
             </nav>
           </div>

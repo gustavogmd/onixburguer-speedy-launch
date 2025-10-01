@@ -61,12 +61,22 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" variant="neon" className="neon-glow text-lg px-8 py-6" onClick={() => window.open("http://wa.me/5521965565600", "_blank")}>
-                Peça pelo WhatsApp
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
+              <div className="space-y-2">
+                <Button 
+                  size="xl" 
+                  variant="neon"
+                  className="neon-glow text-lg font-bold w-full"
+                  onClick={() => window.open("https://onixburguer.com.br/", "_blank")}
+                >
+                  Peça agora pelo site
+                  <span className="ml-2">→</span>
+                </Button>
+                <p className="text-muted-foreground text-sm text-center">
+                  Faça o seu pedido em nosso site agora
+                </p>
+              </div>
               
-              <Button variant="outline-gold" size="lg" className="text-lg px-8 py-6" onClick={() => document.getElementById("loja")?.scrollIntoView({
+              <Button variant="outline-gold" size="xl" className="text-lg px-8 py-6" onClick={() => document.getElementById("loja")?.scrollIntoView({
               behavior: "smooth"
             })}>
                 Conheça Nossa Loja

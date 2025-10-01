@@ -65,12 +65,12 @@ const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-xl font-bold text-foreground">Faça seu Pedido</h3>
             <p className="text-muted-foreground text-sm">
-              Entre em contato conosco pelo WhatsApp e experimente o melhor hambúrguer da vida!
+              Faça o seu pedido em nosso site agora e experimente o melhor hambúrguer da vida!
             </p>
             
-            <Button size="lg" variant="neon" className="neon-glow w-full" onClick={() => window.open("http://wa.me/5521965565600", "_blank")}>
-              <Phone className="w-5 h-5 mr-2" />
-              WhatsApp
+            <Button size="lg" variant="neon" className="neon-glow w-full" onClick={() => window.open("https://onixburguer.com.br/", "_blank")}>
+              Peça agora pelo site
+              <span className="ml-2">→</span>
             </Button>
 
             <div className="flex space-x-3">
@@ -91,7 +91,7 @@ const Footer = () => {
               © 2024 Onix Burger. Todos os direitos reservados. | Desde 2017 em São Gonçalo
             </p>
             <p className="text-xs text-muted-foreground">
-              Desenvolvido com ❤️ para a melhor hamburgueria de São Gonçalo
+              Desenvolvido por <a href="http://www.pivotaai.com.br/" target="_blank" rel="noopener noreferrer" className="text-onix-purple hover:text-onix-purple-glow transition-colors underline">PivotaAI</a>
             </p>
           </div>
         </div>

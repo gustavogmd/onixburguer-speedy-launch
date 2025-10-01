@@ -8,8 +8,8 @@ const DeliverySection = () => {
     description: "A entrega mais rápida de São Gonçalo. Nosso tempo médio impressiona todos os clientes!"
   }, {
     icon: <MapPin className="w-8 h-8 text-onix-gold" />,
-    title: "Cobertura Total",
-    description: "Atendemos toda São Gonçalo com a mesma agilidade e qualidade que nos tornou famosos."
+    title: "Grande Cobertura em São Gonçalo",
+    description: "Entregamos nos principais bairros de São Gonçalo"
   }, {
     icon: <Star className="w-8 h-8 text-onix-purple" />,
     title: "Qualidade Garantida",
@@ -74,13 +74,18 @@ const DeliverySection = () => {
         </div>
 
         {/* CTA */}
-        <div className="text-center">
-          <Button size="lg" variant="neon" className="neon-glow text-xl px-12 py-6" onClick={() => window.open("http://wa.me/5521965565600", "_blank")}>
-            <Truck className="w-6 h-6 mr-3" />
-            Fazer Pedido Agora
+        <div className="text-center space-y-6">
+          <Button 
+            size="xl" 
+            variant="gold"
+            className="text-lg font-bold"
+            onClick={() => window.open("https://onixburguer.com.br/", "_blank")}
+          >
+            Peça agora pelo site
+            <span className="ml-2">→</span>
           </Button>
-          <p className="text-sm text-muted-foreground mt-4">
-            Clique e fale direto conosco pelo WhatsApp
+          <p className="text-muted-foreground">
+            Faça o seu pedido em nosso site agora
           </p>
         </div>
       </div>
