@@ -64,8 +64,8 @@ const DeliverySection = () => {
             <div className="text-muted-foreground">São Gonçalo</div>
           </div>
           <div className="text-center space-y-2">
-            <div className="text-4xl md:text-5xl font-bold neon-text">24h</div>
-            <div className="text-muted-foreground">Funcionamento</div>
+            <div className="text-4xl md:text-5xl font-bold neon-text">18hrs a 00hrs</div>
+            <div className="text-muted-foreground">Horário de Funcionamento</div>
           </div>
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-bold text-onix-gold">2017</div>
