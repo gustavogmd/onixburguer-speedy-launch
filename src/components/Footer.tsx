@@ -87,7 +87,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-muted-foreground text-sm">© 2024 Onix Burguer. Todos os direitos reservados. | Desde 2017 em São Gonçalo</p>
+            <p className="text-muted-foreground text-sm">© 2025 Onix Burguer. Todos os direitos reservados. | Desde 2017 em São Gonçalo</p>
             <p className="text-xs text-muted-foreground">
               Desenvolvido por <a href="http://www.pivotaai.com.br/" target="_blank" rel="noopener noreferrer" className="text-onix-purple hover:text-onix-purple-glow transition-colors underline">PivotaAI</a>
             </p>
