@@ -1,4 +1,4 @@
-import { ArrowRight, Clock, Zap } from "lucide-react";
+import { ArrowRight, Clock, Zap, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/gourmet-burger.jpg";
 const HeroSection = () => {
@@ -64,6 +64,11 @@ const HeroSection = () => {
               <Button size="lg" variant="neon" className="neon-glow text-lg px-8 py-6" onClick={() => window.open("https://www.onixburguer.com.br/", "_blank")}>
                 Peça Agora pelo Site
                 <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+              
+              <Button variant="whatsapp" size="lg" className="whatsapp-glow text-lg px-8 py-6" onClick={() => window.open("https://wa.me/5521965565600?text=Ol%C3%A1%2C%20encontrei%20o%20contato%20da%20Onix%20no%20site%2C%20pode%20me%20enviar%20o%20card%C3%A1pio%3F%F0%9F%8D%94", "_blank")}>
+                <MessageCircle className="w-5 h-5" />
+                Clique aqui e fale conosco
               </Button>
               
               <Button variant="outline-gold" size="lg" className="text-lg px-8 py-6" onClick={() => document.getElementById("loja")?.scrollIntoView({

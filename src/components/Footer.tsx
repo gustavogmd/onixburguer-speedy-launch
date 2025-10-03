@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone, Instagram, Facebook } from "lucide-react";
+import { MapPin, Clock, Phone, Instagram, Facebook, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import onixLogo from "@/assets/onix-logo.png";
 const Footer = () => {
@@ -68,10 +68,17 @@ const Footer = () => {
               Faça o seu pedido em nosso site agora e experimente o melhor hambúrguer da vida!
             </p>
             
-            <Button size="lg" variant="neon" className="neon-glow w-full" onClick={() => window.open("https://onixburguer.com.br/", "_blank")}>
-              Peça agora pelo site
-              <span className="ml-2">→</span>
-            </Button>
+            <div className="flex flex-col gap-3">
+              <Button size="lg" variant="neon" className="neon-glow w-full" onClick={() => window.open("https://onixburguer.com.br/", "_blank")}>
+                Peça agora pelo site
+                <span className="ml-2">→</span>
+              </Button>
+              
+              <Button size="lg" variant="whatsapp" className="whatsapp-glow w-full" onClick={() => window.open("https://wa.me/5521965565600?text=Ol%C3%A1%2C%20encontrei%20o%20contato%20da%20Onix%20no%20site%2C%20pode%20me%20enviar%20o%20card%C3%A1pio%3F%F0%9F%8D%94", "_blank")}>
+                <MessageCircle className="w-5 h-5" />
+                Clique aqui e fale conosco
+              </Button>
+            </div>
 
             <div className="flex space-x-3">
               <Button variant="outline-gold" size="icon" onClick={() => window.open("https://www.instagram.com/onixburguer/", "_blank")}>

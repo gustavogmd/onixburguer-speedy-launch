@@ -55,6 +55,8 @@ export default {
           "gold-glow": "hsl(var(--onix-gold-glow))",
           dark: "hsl(var(--onix-dark))",
           light: "hsl(var(--onix-light))",
+          whatsapp: "hsl(var(--onix-whatsapp))",
+          "whatsapp-glow": "hsl(var(--onix-whatsapp-glow))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -94,6 +96,7 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "neon-glow": "neon-glow 2s infinite alternate",
+        "whatsapp-glow": "whatsapp-glow 2s infinite alternate",
         "gold-shine": "gold-shine 2s infinite",
         "fade-in-up": "fade-in-up 0.6s ease-out forwards",
         "pulse-scale": "pulse-scale 3s ease-in-out infinite",

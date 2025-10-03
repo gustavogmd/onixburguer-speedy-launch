@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import onixLogo from "@/assets/onix-logo.png";
 const Header = () => {
@@ -36,11 +36,15 @@ const Header = () => {
             </button>
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* CTA Buttons */}
+          <div className="hidden md:flex items-center gap-3">
             <Button variant="neon" size="sm" className="neon-glow" onClick={() => window.open("https://onixburguer.com.br/", "_blank")}>
               Peça agora pelo site
               <span className="ml-2">→</span>
+            </Button>
+            <Button variant="whatsapp" size="sm" className="whatsapp-glow" onClick={() => window.open("https://wa.me/5521965565600?text=Ol%C3%A1%2C%20encontrei%20o%20contato%20da%20Onix%20no%20site%2C%20pode%20me%20enviar%20o%20card%C3%A1pio%3F%F0%9F%8D%94", "_blank")}>
+              <MessageCircle className="w-4 h-4" />
+              Fale conosco
             </Button>
           </div>
 
@@ -65,10 +69,16 @@ const Header = () => {
               <button onClick={() => scrollToSection("contato")} className="text-left text-foreground hover:text-onix-purple transition-colors">
                 Contato
               </button>
-              <Button variant="neon" size="sm" className="w-fit" onClick={() => window.open("https://onixburguer.com.br/", "_blank")}>
-                Peça agora pelo site
-                <span className="ml-2">→</span>
-              </Button>
+              <div className="flex flex-col gap-3">
+                <Button variant="neon" size="sm" className="w-full" onClick={() => window.open("https://onixburguer.com.br/", "_blank")}>
+                  Peça agora pelo site
+                  <span className="ml-2">→</span>
+                </Button>
+                <Button variant="whatsapp" size="sm" className="w-full whatsapp-glow" onClick={() => window.open("https://wa.me/5521965565600?text=Ol%C3%A1%2C%20encontrei%20o%20contato%20da%20Onix%20no%20site%2C%20pode%20me%20enviar%20o%20card%C3%A1pio%3F%F0%9F%8D%94", "_blank")}>
+                  <MessageCircle className="w-4 h-4" />
+                  Fale conosco
+                </Button>
+              </div>
             </nav>
           </div>}
       </div>

@@ -18,6 +18,7 @@ const buttonVariants = cva(
         // Onix Burger specific variants
         neon: "bg-onix-purple text-white hover:bg-onix-purple-glow shadow-lg hover:shadow-neon transition-all duration-300",
         gold: "bg-onix-gold text-onix-dark hover:bg-onix-gold-glow font-bold shadow-lg hover:shadow-gold transition-all duration-300",
+        whatsapp: "bg-onix-whatsapp text-white hover:bg-onix-whatsapp-glow shadow-lg hover:shadow-whatsapp transition-all duration-300",
         "outline-neon": "border-2 border-onix-purple text-onix-purple hover:bg-onix-purple hover:text-white transition-all duration-300",
         "outline-gold": "border-2 border-onix-gold text-onix-gold hover:bg-onix-gold hover:text-onix-dark transition-all duration-300",
       },

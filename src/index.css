@@ -45,6 +45,8 @@ All colors MUST be HSL.
     --onix-gold-glow: 45 100% 70%;
     --onix-dark: 0 0% 5%;
     --onix-light: 0 0% 98%;
+    --onix-whatsapp: 142 70% 49%;
+    --onix-whatsapp-glow: 142 70% 59%;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--onix-purple)), hsl(var(--onix-purple-glow)));
@@ -55,6 +57,7 @@ All colors MUST be HSL.
     /* Shadows */
     --shadow-neon: 0 0 30px hsl(var(--onix-purple) / 0.6);
     --shadow-gold: 0 0 20px hsl(var(--onix-gold) / 0.4);
+    --shadow-whatsapp: 0 0 30px hsl(var(--onix-whatsapp) / 0.6);
     --shadow-elevation: 0 10px 40px hsl(0 0% 0% / 0.3);
 
     /* Animations */
@@ -118,6 +121,11 @@ All colors MUST be HSL.
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.05); }
   }
+
+  @keyframes whatsapp-glow {
+    0%, 100% { box-shadow: 0 0 20px hsl(var(--onix-whatsapp) / 0.6); }
+    50% { box-shadow: 0 0 40px hsl(var(--onix-whatsapp) / 0.8); }
+  }
 }
 
 @layer base {
@@ -144,6 +152,10 @@ All colors MUST be HSL.
 
   .neon-glow {
     animation: neon-glow 2s infinite alternate;
+  }
+
+  .whatsapp-glow {
+    animation: whatsapp-glow 2s infinite alternate;
   }
 
   .gold-shine {

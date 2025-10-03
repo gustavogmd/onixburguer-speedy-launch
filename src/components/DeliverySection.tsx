@@ -1,4 +1,4 @@
-import { Clock, MapPin, Star, Truck } from "lucide-react";
+import { Clock, MapPin, Star, Truck, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 const DeliverySection = () => {
@@ -75,15 +75,26 @@ const DeliverySection = () => {
 
         {/* CTA */}
         <div className="text-center space-y-6">
-          <Button 
-            size="xl" 
-            variant="gold"
-            className="text-lg font-bold"
-            onClick={() => window.open("https://onixburguer.com.br/", "_blank")}
-          >
-            Peça agora pelo site
-            <span className="ml-2">→</span>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button 
+              size="xl" 
+              variant="gold"
+              className="text-lg font-bold"
+              onClick={() => window.open("https://onixburguer.com.br/", "_blank")}
+            >
+              Peça agora pelo site
+              <span className="ml-2">→</span>
+            </Button>
+            <Button 
+              size="xl" 
+              variant="whatsapp"
+              className="whatsapp-glow text-lg font-bold"
+              onClick={() => window.open("https://wa.me/5521965565600?text=Ol%C3%A1%2C%20encontrei%20o%20contato%20da%20Onix%20no%20site%2C%20pode%20me%20enviar%20o%20card%C3%A1pio%3F%F0%9F%8D%94", "_blank")}
+            >
+              <MessageCircle className="w-5 h-5" />
+              Clique aqui e fale conosco
+            </Button>
+          </div>
           <p className="text-muted-foreground">
             Faça o seu pedido em nosso site agora
           </p>
