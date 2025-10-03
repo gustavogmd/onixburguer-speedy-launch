@@ -1,6 +1,7 @@
-import { Clock, MapPin, Star, Truck, MessageCircle } from "lucide-react";
+import { Clock, MapPin, Star, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import whatsappLogo from "@/assets/whatsapp-logo.png";
 const DeliverySection = () => {
   const benefits = [{
     icon: <Clock className="w-8 h-8 text-onix-purple" />,
@@ -91,7 +92,7 @@ const DeliverySection = () => {
               className="whatsapp-glow text-lg font-bold"
               onClick={() => window.open("https://wa.me/5521965565600?text=Ol%C3%A1%2C%20encontrei%20o%20contato%20da%20Onix%20no%20site%2C%20pode%20me%20enviar%20o%20card%C3%A1pio%3F%F0%9F%8D%94", "_blank")}
             >
-              <MessageCircle className="w-5 h-5" />
+              <img src={whatsappLogo} alt="WhatsApp" className="w-5 h-5" />
               Clique aqui e fale conosco
             </Button>
           </div>

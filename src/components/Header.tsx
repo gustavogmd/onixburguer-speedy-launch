@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Menu, X, Phone, MessageCircle } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import onixLogo from "@/assets/onix-logo.png";
+import whatsappLogo from "@/assets/whatsapp-logo.png";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const scrollToSection = (sectionId: string) => {
@@ -43,7 +44,7 @@ const Header = () => {
               <span className="ml-2">→</span>
             </Button>
             <Button variant="whatsapp" size="sm" className="whatsapp-glow" onClick={() => window.open("https://wa.me/5521965565600?text=Ol%C3%A1%2C%20encontrei%20o%20contato%20da%20Onix%20no%20site%2C%20pode%20me%20enviar%20o%20card%C3%A1pio%3F%F0%9F%8D%94", "_blank")}>
-              <MessageCircle className="w-4 h-4" />
+              <img src={whatsappLogo} alt="WhatsApp" className="w-4 h-4" />
               Fale conosco
             </Button>
           </div>
@@ -75,7 +76,7 @@ const Header = () => {
                   <span className="ml-2">→</span>
                 </Button>
                 <Button variant="whatsapp" size="sm" className="w-full whatsapp-glow" onClick={() => window.open("https://wa.me/5521965565600?text=Ol%C3%A1%2C%20encontrei%20o%20contato%20da%20Onix%20no%20site%2C%20pode%20me%20enviar%20o%20card%C3%A1pio%3F%F0%9F%8D%94", "_blank")}>
-                  <MessageCircle className="w-4 h-4" />
+                  <img src={whatsappLogo} alt="WhatsApp" className="w-4 h-4" />
                   Fale conosco
                 </Button>
               </div>
