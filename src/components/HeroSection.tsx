@@ -55,7 +55,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-sm">Loja Física</p>
-                  <p className="text-onix-purple text-xs">A Hamburguer com melhor estrutura da cidade</p>
+                  <p className="text-onix-purple text-xs">A Hamburgueria com melhor estrutura da cidade</p>
                 </div>
               </div>
             </div>
